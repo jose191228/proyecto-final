@@ -1,0 +1,54 @@
+REATE TABLE Cuentasporpagar
+    (`universidadoym` varchar(11))
+;
+    
+INSERT INTO Cuentasporpagar
+    (`universidadoym`)
+VALUES
+    ('claro'),
+    ('orange'),
+    ('Comidaperro'),
+    ('edesur')
+;
+
+
+
+CREATE TABLE Materiales
+    (`Granito` varchar(8))
+;
+    
+INSERT INTO Materiales
+    (`Granito`)
+VALUES
+    ('Mármol'),
+    ('Cemento'),
+    ('Ladrillo'),
+    ('Vidrio'),
+    ('Acero'),
+    ('Zinc'),
+    ('Aluminio')
+;
+create table empleado(codigo int primary key, nombre text(20),direccion text(20));
+    insert into empleado(codigo,nombre,direccion) value(4343,'jose','santo domingo');
+    insert into empleado(codigo,nombre,direccion) value(4138,'pedro','higuey');
+    insert into empleado(codigo,nombre,direccion) value(3208,'luis','samana');
+    insert into empleado(codigo,nombre,direccion) value(3408,'freylin','samana');
+    insert into empleado(codigo,nombre,direccion) value(5108,'kelvin','cienaga');
+    insert into empleado(codigo,nombre,direccion) value(4808,'marleny','arroyo hondo');
+    insert into empleado(codigo,nombre,direccion) value(9808,'laura','bayona');
+    insert into empleado(codigo,nombre,direccion) value(6708,'paola','el millon');
+    insert into empleado(codigo,nombre,direccion) value(8908,'carmen','san critobal');
+
+
+CREATE TABLE servicios
+    (`Limpieza` varchar(24))
+;
+    
+INSERT INTO servicios
+    (`Limpieza`)
+VALUES
+    ('Arquitectonicos'),
+    ('Esteticos'),
+    ('decoracion de interiores'),
+    ('acarreo')
+
